@@ -1,1 +1,2 @@
-# Cows-And-Bulls-Guessing-Game
+# Cows And Bulls Guessing Game
+This is just a simple Guessing Game
