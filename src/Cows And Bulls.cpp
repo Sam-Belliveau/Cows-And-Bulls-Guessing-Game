@@ -53,7 +53,7 @@ int main() {
 	srand(time(NULL));
 
 	while (1) {
-		cout << "I have chosen a 4 digit number.\nYou have 12 guesses.\n\nRules:\nCow means there is a correct number in the wrong spot.\nBull means there is a correct number in the right spot.\nNo number starts with 0.\nNo digit repeats.\n" << endl;
+		cout << "I have chosen a 4 digit number.\nYou have 16 guesses.\n\nRules:\nCow means there is a correct number in the wrong spot.\nBull means there is a correct number in the right spot.\nNo number starts with 0.\nNo digit repeats.\n" << endl;
 
 		i = 1;
 
@@ -68,10 +68,10 @@ int main() {
 		d4 = (rand() % (10));
 		while (d4 == d1 || d4 == d2 || d4 == d3) { d4 = (rand() % (10)); }
 
-		while (i <= 12) {
+		while (i <= 16) {
 			cows = 0;
 			bulls = 0;
-			cout << "---Round Number " << i << "/12---" << endl;
+			cout << "---Round Number " << i << "/16---" << endl;
 			cout << "Enter Your Guess: ";
 			g1 = playerInput();
 			g2 = playerInput();
